@@ -11,4 +11,5 @@ res.render('mail')
 app.post("/submit",(req,res)=>{
   res.send('email send')
 })
+
 app.listen(2300)
