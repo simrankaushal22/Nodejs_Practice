@@ -28,7 +28,7 @@ app.get("/app",(req,res)=>{
       
 // To check a password:
 // Load hash from your password DB.
-bcrypt.compare("myPlaintextPassword","$2b$10$DejTy0B48BNMz0bfuq8o6u0jKxYsGyZBW6NG010tNLFnQh0zLjflC", function(err, result) {
+bcrypt.compare("simran@123","$2b$10$p0hMRrnJR0FB/I9VE2MsvOEDwo4R7hnz2saaDP5Bovz07IOS2QN/y", function(err, result) {
 
 console.log(result);
   
